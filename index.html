@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fi">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+        <title>HedelmäPeli</title>
+    </head>
+    <body>
+        <h1>HedelmäPeli</h1>
+        <div style="width: 700px; height: 700px; background-color: blue;">
+            <p id="saldo">Saldo: 0 e</p>
+            <button id="panosLasku" style="margin-left: 42%;">-</button>
+            <p id="panos" style="display: inline; margin-left: auto; margin-right: auto;">Panos 1 e</p>
+            <button id="panosNosto">+</button>
+            <div style="width: 100%; height: 40%; background-color: brown; margin-top: 50px; display: flex; justify-content:space-evenly;">
+                <img src="Kuvat/sitruuna.png" alt="sitruuna" width="100px" height="100px" class="kuvat" id="kuva1">
+                <img src="Kuvat/sitruuna.png" alt="sitruuna" width="100px" height="100px" class="kuvat" id="kuva2">
+                <img src="Kuvat/sitruuna.png" alt="sitruuna" width="100px" height="100px" class="kuvat" id="kuva3">
+                <img src="Kuvat/sitruuna.png" alt="sitruuna" width="100px" height="100px" class="kuvat" id="kuva4"><br>
+                
+            </div>
+            <button id="pyorayta">Pyöräytä</button>
+            <p id="ilmoitus">Ei saldoa!</p>
+        </div>
+        
+        <script src="main.js"></script>
+    </body>
+</html>
