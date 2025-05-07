@@ -19,9 +19,16 @@
 }
 
 .kuvat{
-    margin-left: 2%; 
+    margin-left: 5%; 
     margin-top: auto; 
     margin-bottom: auto;
+}
+
+.lukitse{
+    background-color: white;
+    color: black;
+    width: 100px;
+    margin-top: 25px;
 }
 
 #ilmoitus{
