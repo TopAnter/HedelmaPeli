@@ -1,6 +1,8 @@
 let saldo = 100
 let panos = 1
 
+let kuviot = [[1, false], [1, false], [1, false], [1, false]]
+
 document.getElementById("pyorayta").addEventListener("click", painallus)
 
 document.getElementById("panosLasku").addEventListener("click", lasku)
@@ -28,4 +30,8 @@ function nosto(event){
         document.getElementById("ilmoitus").innerText = "panos on jo maximissa"
     }
     event.preventdefault()
+}
+
+function kuvat(){
+    for()
 }
